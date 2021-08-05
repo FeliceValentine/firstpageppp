@@ -1,0 +1,54 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap'); /* < Font Parissiene for the nav */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); /* Font for the main bits -Poppins*/
+
+
+body{
+    background-color:#FFF1EB;
+    margin:4rem;
+}
+
+nav{
+    background-color:#EAA9AC;
+    display: flex;
+    justify-content: space-around;
+    /* align-self: center; */
+    align-items: stretch;
+    align-content: space-between;
+    border-radius: 45px;
+    border:solid;
+    border-color: #453F3F;
+   font-family: 'Parisienne', cursive;
+    color: #453F3F;
+    margin: 2rem;
+
+}
+.picAndTitle{
+    display: flex;
+    align-self: flex-start;
+    align-content: space-between;
+    font-size: large;
+}
+
+.basketAndPric{
+    display: flex;
+    font-size: large;
+} 
+.hero{
+    background-color:#EDC679 ;
+    border-radius: 45px;
+    border:solid;
+    border-color: #E5989B;
+    padding:1rem;
+    margin: 3rem; ;
+    font-family: 'Poppins', cursive;
+    color: #453F3F;
+    display: flex;
+    justify-content:center;
+}
+.characters{
+    display: flex;
+    justify-content:center;
+    align-items: space-around;
+
+}
